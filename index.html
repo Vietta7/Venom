@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Главная - Venom 2</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="blood" >
+
+<div class="container">
+    <header class="header">
+      <a href="/" class="header-logo">
+        <img src="img/logo.png" alt="logo" class="logo-image">
+      </a>
+      <nav class="nav">
+        <button class="menu-button">
+          <span class="menu-button-text">меню</span>
+          <img src="img/Frame 3.svg" alt="" class="menu-button-icon">
+        </button>
+        <button class="menu-close">
+          <span class="menu-close-text">закрыть</span>
+          <img src="img/arrow.svg" alt="" class="menu-close-icon">
+        </button>
+        <ul class="nav-menu">
+          <li class="nav-menu-item"><a href="about.html" class="nav-menu-link">о фильме</a></li>
+          <li class="nav-menu-item"><a href="trailer.html" class="nav-menu-link">трейлер</a></li>
+          <li class="nav-menu-item"><a href="actors.html" class="nav-menu-link">актеры</a></li>
+          <li class="nav-menu-item"><a href="ptrmier.html" class="nav-menu-link">премьера</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <div class="film">
+      <div class="film-text">
+        <div class="hero-text">
+          <span class="film-date">16 сентября 2021</span>
+          <img src="img/film-logo.svg" alt="film-logo" class="film-logo">
+          <p class="film-description">В настырном журналисте по-прежнему живет симбиот. <br> Том Харди в образе обаятельного суперзлодея <br> из комиксов Marvel.
+          </p>
+        </div>
+
+        <div class="button-group">
+          <a data-fancybox href="https://www.youtube.com/watch?v=Othd8W8o3t0" class="button button-primary">
+            <img src="img/button-icon.png" alt="button-icon" class="button-icon">
+            <span class="button-text">смотреть трейлер</span>
+          </a>
+          <a href="trailer.html" class="button button-link">
+            <img src="img/button-icon-ticket.png" alt="icon-ticket" class="button-icon">
+            <span class="button-text">билеты на премьеру</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--/.film-->
+</div>
+<!--/.container-->
+  <img src="img/venom.png" alt="photo" class="venom">
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+  <script type="module">
+    import { Fancybox } from "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.esm.js";
+  </script>
+  <script src="js/main.js"></script>
+</body>
+</html>
